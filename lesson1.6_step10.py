@@ -9,7 +9,7 @@ try:
     # Ваш код, который заполняет обязательные поля
     first_name_field = browser.find_element_by_css_selector('.form-control.first[required=""]')
     last_name_field = browser.find_element_by_css_selector('.form-control.second[required=""]')
-    email_field = browser.find_element_by_css_selector('.form-control.third[required=""')
+    email_field = browser.find_element_by_css_selector('.form-control.third[required=""]')
     first_name_field.send_keys('Bück dich')
     last_name_field.send_keys('befehl ich dir')
     email_field.send_keys('gucci@spb.ru')
